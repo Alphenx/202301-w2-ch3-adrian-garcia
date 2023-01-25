@@ -1,0 +1,26 @@
+{
+  "name": "202301-w2-ch3-adrian-garcia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alphenx/202301-w2-ch3-adrian-garcia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alphenx/202301-w2-ch3-adrian-garcia/issues"
+  },
+  "homepage": "https://github.com/Alphenx/202301-w2-ch3-adrian-garcia#readme",
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "jest": "^29.4.0"
+  }
+}

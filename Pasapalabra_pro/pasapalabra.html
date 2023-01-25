@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>BIENVENIDO/A AL JUEGO DE PASAPALABRA DE ISDI CODERS</h1>
+    </header>
+    <section class="game_container">
+        <div class="circle_container">
+            <div class="title">
+                <!-- <h2>PASAPALABRA</h2> -->
+                <img src="./pasapalabra.svg.svg" alt="Pasapalabra" id="pasapalabra-img">
+                <!-- <h7>by: Alphenx</h7> -->
+                <h3 class="timer" id="timer">0</h3>
+            </div>
+
+            <ul class="circle" id="circle">
+                <li class="letter0">A</li>
+                <li class="letter1">B</li>
+                <li class="letter2">C</li>
+                <li class="letter3">D</li>
+                <li class="letter4">E</li>
+                <li class="letter5">F</li>
+                <li class="letter6">G</li>
+                <li class="letter7">H</li>
+                <li class="letter8">I</li>
+                <li class="letter9">J</li>
+                <li class="letter10">K</li>
+                <li class="letter11">L</li>
+                <li class="letter12">M</li>
+                <li class="letter13">N</li>
+                <li class="letter14">Ñ</li>
+                <li class="letter15">O</li>
+                <li class="letter16">P</li>
+                <li class="letter17">Q</li>
+                <li class="letter18">R</li>
+                <li class="letter19">S</li>
+                <li class="letter20">T</li>
+                <li class="letter21">U</li>
+                <li class="letter22">V</li>
+                <li class="letter23">W</li>
+                <li class="letter24">X</li>
+                <li class="letter25">Y</li>
+                <li class="letter26">Z</li>
+            </ul>
+        </div>
+
+        <div class="buttons_container">
+            <div class="norms_container">
+                <h2> Juego basado en el concurso de televisión Pasapalabra.</h2>
+                
+                <h3><b>Normas básicas:</b><h3>
+
+                <h4> Se mostraran unas definiciones por pantalla y el usuario deberá responder con la palabra a la que corresponden. <br>
+                El usuario tiene la opción de decir Pasapalabra y dejar sin contestar esa pregunta para mas adelante.<br>
+                El juego puede pararse en cualquier momento, escribiendo la palabra clave "END". <br>
+                Se deben introducir las palabras sin usar TILDES.</h4>
+
+                <input type="button" value="JUGAR" class="play" id="play">
+            </div>
+
+            <form class="form_container" id="form">
+                
+                <h3 class = "question" id="currentQuestion">"CON LA B. Juego que ha sacado de quicio a todos los 'Skylabers' en las sesiones de precurso"</h3>
+                <h4 class="status" id="Qstatus">mensaje</h4>
+
+                <input type="text" pattern="[A-Za-z\u00f1\u00d1 ]+" class="text" id="textInput">
+                <input type="submit" value="+" class="submit" id="send">
+                <input type="submit" value="Pasapalabra" class="pass" id="pass">
+            </form>
+
+        </div>
+    </section>
+
+</body>
+</html>
